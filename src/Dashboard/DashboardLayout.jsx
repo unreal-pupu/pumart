@@ -38,7 +38,7 @@ const DashboardLayout = () => {
 
       <Sidebar isMobileMenuOpen={isMobileMenuOpen} toggleMobileMenu={toggleMobileMenu} />
 
-      <div className="flex-1 p-6 transition-all duration-300">
+      <div className="flex-1 p-6 pt-16 md:pt-6 transition-all duration-300">
         <Outlet />
       </div>
     </div>
